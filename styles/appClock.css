@@ -75,19 +75,19 @@ body {
 
 .second-hand {
   width: 2px;
-  background: #FA9F22;
+  background: red;
 }
 .second-hand-front {
   width: 2px;
   height: 137px;
-  background: #FA9F22;
+  background: red;
   -webkit-transform: translate(-50%,-100%) translateY(-3px);
           transform: translate(-50%,-100%) translateY(-3px);
 }
 .second-hand-back {
   width: 2px;
   height: 21px;
-  background: #FA9F22;
+  background: red;
   opacity: 1;
   -webkit-transform: translate(-50%,-100%) translateY(24px);
           transform: translate(-50%,-100%) translateY(24px);
@@ -263,7 +263,7 @@ body {
 
 /* Customize: hand */
 .hand-style-hollow .fat-hand {
-  background: black;
+  background: #adff2f;
   border: 2px solid white;
 }
 
