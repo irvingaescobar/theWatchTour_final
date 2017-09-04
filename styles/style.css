@@ -1,0 +1,300 @@
+/* Nav bar */
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  font: 22px "Montserrat", sans-serif;
+}
+
+p {font-size: 16px;
+
+}
+
+
+}
+
+.navbar-dark .navbar-brand {
+	color: white;
+	font-family: serif;
+	font-size: 2rem;
+  position: fixed;
+}
+
+.navbar-brand {
+	font-family: serif;
+}
+
+ .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      opacity: .9;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c;
+  }
+
+  .myPage-navbar {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 999999;
+    opacity: 1;
+  }
+
+  #myPage .myPage-navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  #myPage .nav-item a:active {
+    color: white;
+  }
+
+/* Watch Slideshow */
+
+.headerslide {
+  width: 100%;
+  height: 100%;
+  margin-left:auto ;
+  margin-right:auto ;
+}
+
+.headerslide-inner {
+  height: 100%;
+}
+
+.headerslide .slick-list {
+  height: 100% !important;
+}
+
+.headerslide .slick-track {
+  height: 100% !important;
+}
+
+.headerslide .slick-slide {
+  height: 100% !important;
+}
+
+.slide-container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.slick-arrow {
+  display: none !important;
+}
+
+/* About Page */
+
+
+.bg-1 { 
+      background-color: gray;
+      color: #ffffff;
+}
+
+.bg-2 { 
+      background-color: #2d3240;
+      color: #ffffff;
+}
+
+.thumbnail {
+  height: 75%;
+  box-sizing: border-box;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*min-height: 80%;*/
+}
+
+
+
+.about-padding {
+  padding: 50px 50px 50px 50px;
+  display: block;
+}
+
+/* Custom Clock */
+.clock-wrapper {
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 75px);
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 999;
+}
+
+
+
+/* Discover Page */
+
+.discover-background {
+  background-color: #404040;
+  padding: 50px 0px 50px 0px;
+  color: white
+}
+
+
+.panel-heading {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.rounded-circle {
+  border-radius:50%;
+}
+
+.watch-img {
+    border: 5px solid transparent;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Active Tours */
+
+.active-tour {
+  padding-bottom: 100px;
+}
+
+.active-watch-paragraph {
+  font-size: 24px;
+}
+
+.slick-slide img {
+  display: inline;
+}
+
+.btn-slideshow {
+  background-color: blue;
+}
+
+.mybutton-styling {
+  margin-top: 400px;
+}
+
+.modal-header {
+  padding: 5px;
+}
+
+/* Sign up Examples */
+
+.signup-section {
+  background-color: #909aa0;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.textarea {
+  resize: none;
+}
+.form-label {
+  font-size: 12px;
+  color: #5e9bfc;
+  margin: 0;
+  display: block;
+  opacity: 1;
+  -webkit-transition: .333s ease top, .333s ease opacity;
+  transition: .333s ease top, .333s ease opacity;
+}
+
+.form-control {
+  border-radius: 0;
+  border-color: #ccc;
+    border-width: 0 0 2px 0;
+    border-style: none none solid none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #5e9bfc;
+}
+
+.js-hide-label {
+  opacity: 0;   
+}
+
+.js-unhighlight-label {
+  color: #999 
+}
+
+.btn-start-order {
+  background: 0 0 #ffffff;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #2f323a;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+  border-color: #5e9bfc;
+  color: #5e9bfc;
+}
+
+
+
+/* Footer */
+
+.footer-styling {
+    background-color: #2d2d30;
+    color: white;
+    padding: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+  font-family: serif;
+}
+
+
+#myPage .slick-dots {
+  display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#myPage .slick-dots li button {
+background: none;
+    border: 0;
+    outline: 0;
+    width: 10px;
+    height: 10px;
+    color: transparent;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+#myPage .slick-dots li.slick-active button {
+  background-color: black;
+  border: 1px solid black;
+}
+
+
