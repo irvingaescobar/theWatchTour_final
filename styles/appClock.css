@@ -60,7 +60,7 @@ body {
 .circle-2 {
   width: 4px;
   height: 4px;
-  border: 2px solid #FA9F22;
+  border: 2px solid red;
 }
 
 .second {
@@ -139,13 +139,13 @@ body {
 }
 
 .hour-pill {
-  background: white;
+  background: #7fffd4;
   width: 6px;
   height: 35px;
   border-radius: 10px;
   -webkit-transform: translate(-50%,-100%) translateY(-85px);
           transform: translate(-50%,-100%) translateY(-85px);
-  opacity: 0.75;
+  opacity: 0.85;
 }
 .hour-text {
   font: 40px Hei, Helvetica;
@@ -262,20 +262,20 @@ body {
 }
 
 /* Customize: hand */
-.hand-style-hollow .fat-hand {
-  background: #adff2f;
-  border: 2px solid white;
+.hand-style-lume .fat-hand {
+  background: #7fffd4;
+  border: 1px solid white;
 }
 
 /* Customizer */
 #chooser {
-  font: 10px Verdana, sans-serif;
+  font: 10px arial, sans-serif;
   position: absolute;
   top: 4px;
   left: 4px;
   color: white;
   z-index: 1;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 #chooser div {
   cursor: pointer;
