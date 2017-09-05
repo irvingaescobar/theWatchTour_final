@@ -10,7 +10,7 @@ choose(clock, [
   ['minute', ['line', 'dot']],
   ['minute-display', ['fine', 'fine-2', 'coarse', 'major', 'none']],
   ['minute-text', ['inside', 'outside', 'none']],
-  ['hand', ['normal', 'hollow']]
+  ['hand', ['normal', 'lume']]
 ])
 
 function utilityClock(container) {

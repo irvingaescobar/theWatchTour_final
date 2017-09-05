@@ -7,7 +7,7 @@
 $('.js-slideshow-fade').slick({
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 400,
   fade: true,
   cssEase: 'linear',
   arrows: false,
@@ -24,22 +24,18 @@ draggable: true,
 cssEase: 'linear'
 })
 
-/* Discover Watches Slideshow */
+/* Active Tour Watches Slideshow */
 $('.js-slideshow').slick({
   slidesToScroll: 1,
   autoplay: true, 
-  autoplaySpeed: 3000,
+  autoplaySpeed: 2000,
   arrows:false,
-  centerMode: true,
-  centerPadding: '20px',
   slidesToShow: 1,
   responsive: [
     {
       breakpoint: 480,
       settings: {
         arrows: false,
-        centerMode: true,
-        centerPadding: '20px',
         slidesToShow: 1
       }
     }
